@@ -12,6 +12,9 @@
 		2C6EA2B11D7D290E00BC1979 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6EA2AF1D7D290E00BC1979 /* Main.storyboard */; };
 		2C6EA2B31D7D290E00BC1979 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6EA2B21D7D290E00BC1979 /* Assets.xcassets */; };
 		2C6EA2B61D7D290E00BC1979 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6EA2B41D7D290E00BC1979 /* LaunchScreen.storyboard */; };
+		2C6EA2C21D7D296F00BC1979 /* UINavigationController+BagShouldPopExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EA2C11D7D296F00BC1979 /* UINavigationController+BagShouldPopExtension.m */; };
+		2C6EA2C41D7D297F00BC1979 /* UINavigationController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EA2C31D7D297F00BC1979 /* UINavigationController+extension.swift */; };
+		2C6EA2C71D7D2A3800BC1979 /* PopControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EA2C61D7D2A3800BC1979 /* PopControlViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,11 @@
 		2C6EA2B21D7D290E00BC1979 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C6EA2B51D7D290E00BC1979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C6EA2B71D7D290E00BC1979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C6EA2C01D7D296F00BC1979 /* UINavigationController+BagShouldPopExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+BagShouldPopExtension.h"; sourceTree = "<group>"; };
+		2C6EA2C11D7D296F00BC1979 /* UINavigationController+BagShouldPopExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+BagShouldPopExtension.m"; sourceTree = "<group>"; };
+		2C6EA2C31D7D297F00BC1979 /* UINavigationController+extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+extension.swift"; sourceTree = "<group>"; };
+		2C6EA2C51D7D29A700BC1979 /* CapturePopAction-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CapturePopAction-Bridging-Header.h"; sourceTree = "<group>"; };
+		2C6EA2C61D7D2A3800BC1979 /* PopControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopControlViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,8 @@
 		2C6EA29F1D7D290D00BC1979 = {
 			isa = PBXGroup;
 			children = (
+				2C6EA2BD1D7D293E00BC1979 /* Objectiv-C */,
+				2C6EA2BE1D7D293E00BC1979 /* Swift */,
 				2C6EA2AA1D7D290D00BC1979 /* CapturePopAction */,
 				2C6EA2A91D7D290D00BC1979 /* Products */,
 			);
@@ -54,14 +64,33 @@
 		2C6EA2AA1D7D290D00BC1979 /* CapturePopAction */ = {
 			isa = PBXGroup;
 			children = (
+				2C6EA2C51D7D29A700BC1979 /* CapturePopAction-Bridging-Header.h */,
 				2C6EA2AB1D7D290D00BC1979 /* AppDelegate.swift */,
 				2C6EA2AD1D7D290E00BC1979 /* ViewController.swift */,
 				2C6EA2AF1D7D290E00BC1979 /* Main.storyboard */,
 				2C6EA2B21D7D290E00BC1979 /* Assets.xcassets */,
 				2C6EA2B41D7D290E00BC1979 /* LaunchScreen.storyboard */,
 				2C6EA2B71D7D290E00BC1979 /* Info.plist */,
+				2C6EA2C61D7D2A3800BC1979 /* PopControlViewController.swift */,
 			);
 			path = CapturePopAction;
+			sourceTree = "<group>";
+		};
+		2C6EA2BD1D7D293E00BC1979 /* Objectiv-C */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EA2C01D7D296F00BC1979 /* UINavigationController+BagShouldPopExtension.h */,
+				2C6EA2C11D7D296F00BC1979 /* UINavigationController+BagShouldPopExtension.m */,
+			);
+			path = "Objectiv-C";
+			sourceTree = "<group>";
+		};
+		2C6EA2BE1D7D293E00BC1979 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EA2C31D7D297F00BC1979 /* UINavigationController+extension.swift */,
+			);
+			path = Swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C6EA2C71D7D2A3800BC1979 /* PopControlViewController.swift in Sources */,
+				2C6EA2C21D7D296F00BC1979 /* UINavigationController+BagShouldPopExtension.m in Sources */,
 				2C6EA2AE1D7D290E00BC1979 /* ViewController.swift in Sources */,
 				2C6EA2AC1D7D290E00BC1979 /* AppDelegate.swift in Sources */,
+				2C6EA2C41D7D297F00BC1979 /* UINavigationController+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +281,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CapturePopAction/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.heronlyj.CapturePopAction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CapturePopAction/CapturePopAction-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -260,10 +295,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CapturePopAction/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.heronlyj.CapturePopAction;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CapturePopAction/CapturePopAction-Bridging-Header.h";
 			};
 			name = Release;
 		};
