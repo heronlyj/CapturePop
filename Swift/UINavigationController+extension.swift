@@ -1,9 +1,9 @@
 //
 //  UINavigationController+extension.swift
-//  bag
+//  CapturePopAction
 //
-//  Created by lyj on 16/5/16.
-//  Copyright © 2016年 Eastern Innovation Technologies Co., Ltd. All rights reserved.
+//  Created by lyj on 9/5/16.
+//  Copyright © 2016 heronlyj. All rights reserved.
 //
 
 import UIKit

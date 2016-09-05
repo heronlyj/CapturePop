@@ -1,9 +1,9 @@
 ////
 ////  UINavigationController+ShouldPopExtension.m
-////  DIYNavigationPop
+////  CapturePopAction
 ////
-////  Created by lyj on 16/5/16.
-////  Copyright © 2016年 heronlyj. All rights reserved.
+////  Created by lyj on 9/5/16.
+////  Copyright © 2016 heronlyj. All rights reserved.
 ////
 //
 //#import "UINavigationController+BagShouldPopExtension.h"
